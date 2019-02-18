@@ -1,11 +1,102 @@
+/*Essentials*/
+
 body {
-  background-color: none;
+  margin: 0;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #333;
 }
 
-ul {
+p {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:visited {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1,h2,h3,h4,h5,h6,ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
   list-style-type: none;
 }
 
-ul {
 
+::selection {
+  color: #ffffff;
+  background-color: #333;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #333;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*
+#navbar {
+position: fixed;
+top: 0px;
+left:0px;
+
+width: 100%;
+background-color: white;
+}
+*/
+
+#login-button {
+  background-color: rgb(100, 19, 177);
+  color: rgb(252, 252, 252);
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 10%;
+  
+}
+
+.navbar {
+  position: right;
+}
+
+.top-nav {
+  position: relative;
+  text-align: right;
+  float: right;
+  width: 100%;
+  top: 0px;
+  border-bottom: 1px solid #ccc;
+
+}
+
+
+
+nav li {
+display: inline;
+margin-left: 20px;
+}
+
+.user-login {
+  position: absolute;
+  top: 8em;
+  right: 20px;
 }
